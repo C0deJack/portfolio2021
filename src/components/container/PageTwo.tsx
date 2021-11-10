@@ -1,4 +1,3 @@
-import React from 'react'
 import Error from '../styled/Error';
 
 export default function PageTwo() {

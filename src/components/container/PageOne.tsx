@@ -1,4 +1,3 @@
-import React from 'react';
 import LinkButton from '../styled/LinkButton';
 
 export default function PageOne() {
