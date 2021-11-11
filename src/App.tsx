@@ -6,7 +6,7 @@ import { GlobalStyles } from './styles/global';
 import { Theme, lightTheme, darkTheme } from './styles/theme';
 
 import { Header } from './components/container/Header';
-import NavBar from './components/styled/NavBar';
+import { Home } from './components/container/Home';
 import Home from './components/container/Home';
 import PageOne from './components/container/PageOne';
 import PageTwo from './components/container/PageTwo';
@@ -27,7 +27,6 @@ export default function App() {
                 <GlobalStyles />
                 <Router>
                     <Header onThemeChange={updateTheme}/>
-                    <NavBar />
                     <Routes>
                         <Route path="/" element={<Home/>} />
                         <Route path={'/one'} element={<PageOne/>} />

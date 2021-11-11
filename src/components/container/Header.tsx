@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 import Logo from '../styled/Logo';
+import NavBar from '../styled/NavBar';
 import { ThemeToggle } from '../styled/ThemeToggle';
-import SearchBar from '../styled/SearchBar';
 
 const StyledHeader = styled.header`
     display: flex;
@@ -23,7 +23,7 @@ export const Header: React.FC<Props> = ({onThemeChange}) => {
         <StyledHeader>
             <Logo />
             <div>
-                <SearchBar />
+                <NavBar />
                 <ThemeToggle onThemeToggleChange={onThemeChange}/>
             </div>
         </StyledHeader>
